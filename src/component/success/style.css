@@ -1,0 +1,42 @@
+.success-main-container{
+    position: absolute;
+    top:-20px;
+    left: 50%;
+    transform: translateX(-50%);
+    visibility: hidden;
+    opacity: 1;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+.success-main-container-show{
+  visibility: visible;
+  opacity: 1;
+}
+.success-container{
+background: rgba(255,255,255,0.2);
+border-radius: 8px;
+border:2px solid rgba(255,255,255,0.8);
+padding: 10px;
+width: 120px;
+height: 130px;
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+align-items: center;
+position: relative;
+}
+
+.success-img{
+width: 80px;
+}
+
+.success-heading{
+margin: 0;
+}
+
+.success-close{
+font-size: 1.5em;
+position: absolute;
+top: -20px;
+right: 5px;
+cursor: pointer;
+}
